@@ -1,0 +1,11 @@
+@media (min-width: 767px){
+   body{
+     margin:1em 12em;
+     
+   } 
+}
+@media (max-width:767px){
+    body{
+        margin: 1em;
+    }
+}
