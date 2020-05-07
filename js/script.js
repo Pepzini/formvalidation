@@ -15,6 +15,7 @@ function validateform(params) {
    } if (document.myForm.password.value != document.myForm.confirmPassword.value) {
        alert('Password do not match')
    } else {
-       
+    alert("Password Match: Welcome to GoGirl") 
+    return true; 
    }
 }
