@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <title>Gogirl |  Create Account</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Gogirl | Create Account</title>
     <script src="./js/script.js"></script>
 
     <!--Since this is one page site, I have choosen to use internal styling for css-->
     <style>
         body {
-            margin: 8em 16em;
             background-image: url(images/background.png);
+            padding: em;
         }
 
         .word-block {
@@ -22,11 +23,13 @@
         }
 
         form {
+            
             background-color: white;
             border-radius: 15px 50px;
             padding: 3em;
             border: 2px solid rgb(51, 161, 150);
         }
+       
     </style>
 
 <body>
@@ -37,11 +40,12 @@
     <form name="myForm" onsubmit="return(validateform());">
         <div class="form-group">
             <label for="full-name">Full-name</label>
-            <input type="name" name="fullName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="name" name="fullName" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
         </div>
         <div class="form-group">
             <label for="email-address">Email address</label>
-            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
