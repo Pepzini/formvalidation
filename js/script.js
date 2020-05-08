@@ -9,13 +9,13 @@ function validateform(params) {
         return false;
     }
     if (document.myForm.password.value.length < 6) {
-    alert('Password too short');
-    document.myForm.password.focus();
-    return false;
+        alert('Password too short');
+        document.myForm.password.focus();
+        return false;
     } if (document.myForm.password.value != document.myForm.confirmPassword.value) {
-    alert('Password do not match')
+        alert('Password do not match')
     } else {
-    alert("Password Match: Welcome to GoGirl")
-    return true;
-}
+        alert("Password Match: Welcome to GoGirl")
+        return true;
+    }
 }
